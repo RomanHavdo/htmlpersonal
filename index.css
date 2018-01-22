@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+@import url('https://fonts.googleapis.com/css?family=Alef');
+h2,
+menu {
+    font-family: 'Abril Fatface', cursive;
+}
+label{
+    font-family: 'Alef', sans-serif;
+}
