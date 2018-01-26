@@ -32,7 +32,7 @@ header h1 {
 
 nav {
     float: right;
-    margin-top: 5px;
+    margin-top: 7px;
     text-transform: uppercase;
 }
 
@@ -53,6 +53,11 @@ li {
     padding: 0 18px;
     background: black;
     border-radius: 18px;
+}
+section{
+    background-color: rgb(241, 243, 244);
+    border: 1px black;
+    border-style: solid;
 }
 
 .button-center {
@@ -96,6 +101,7 @@ label {
     justify-content:center;
     width: 212px;
     height: 158px;
+    margin-bottom: 10px;
 }
 
 .footer-img{
