@@ -16,10 +16,6 @@
 </head>
 
 <body>
-    <header>
-        <h1>Roman Havdo</h1>
-    </header>
-
     <nav>
         <menu>
             <li>About</li>
@@ -28,24 +24,38 @@
         </menu>
     </nav>
 
+    <header>
+        <h1>Roman Havdo</h1>
+    </header>
+
     <main>
 
         <section>
             <h2>What I can do</h2>
-            <p>I'm a web designer / developer based in Lviv, Ukraine. I have a passion for web design and love to create for web and mobile devices.</p>
-            <h3 class="h3-one">Disign what you want</h3>
-            <p> I like to keep it simple. My goals are to focus on typography, content and conveying the message that you want to send.</p>
-            <img class="small-img" src="img/design.png" alt="desing">
-            <h3>Make it cheap</h3>
-            <p>My prices are a bit cheaper than my colleagues.Since I am a beginner, but I am studying hard.</p>
-            <img class="small-img" src="img/money.png" alt="money">
+            <p>I'm a web designer / developer based in Lviv, Ukraine. </p>
+            <p>I have a passion for web design and love to create </p>
+            <p>for web and mobile devices.</p>
 
+            <div class="design">
+                <h3>Disign what you want</h3>
+                <p>
+                    <img class="small-img1" src="img/design.png" alt="desing"> I like to keep it simple. My goals are to focus on typography, content and conveying the message that you want to send.
+                </p>
+            </div>
+
+            <div class="cheap">
+                <h3>Make it cheap</h3>
+                <p>
+                    <img class="small-img2" src="img/money.png" alt="money"> My prices are a bit cheaper than my colleagues.Since I am a beginner, but I am studying hard.</p>
+            </div>
         </section>
 
         <section>
             <h2>I can help</h2>
-            <p>I’m currently available for freelance work. </p>
-            <p>If you have a project that you want to get started, think you need my help with something or just fancy saying hey, then get in touch.</p>
+            <p class="freelance">I’m currently available for freelance work. </p>
+            <p>If you have a project that you want to get started,</p>
+            <p>think you need my help with something or just fancy</p>
+            <p class="last-p">saying hey, then get in touch.</p>
         </section>
 
         <section>
@@ -58,7 +68,8 @@
 
         <section>
             <h2>Let's Talk</h2>
-            <p> Whether you have a project you're looking to chat about, or just want to see what I'm up to; this form is for you.</p>
+            <p> Whether you have a project you're looking to chat about,</p>
+            <p class="last-p">or just want to see what I'm up to; this form is for you.</p>
 
             <form method="POST" action="https://formspree.io/roman.havdo@gmail.com">
                 <fieldset>
@@ -66,6 +77,9 @@
                         <input type="text" name="first-name" required 
                         placeholder="John"> 
                     </label>
+                </fieldset>
+
+                <fieldset>
                     <label>Second Name*
                         <input type="text" name="second-name" required
                         placeholder="Kovalenko">
@@ -74,16 +88,14 @@
 
                 <fieldset>
                     <label>Email*
-                        <input type="email" name="email-user" required
+                        <input type="email" name="email-user" required cols="20"
                         placeholder="john.kovalenko@gmail.com">
                     </label>
                 </fieldset>
 
                 <fieldset>
-                    <label>TELL ME ABOUT IT*
-                    <input type="text" name="message" required 
-                    placeholder="Your message"> 
-                    </label>
+                    <label>TELL ME ABOUT IT*</label>
+                    <textarea name="Tell_me_about_it" required cols="20" rows="5" aria-required="true" class="error" aria-invalid="true"></textarea>
                 </fieldset>
                 <input class="button-center" type="submit" value="SEND">
             </form>

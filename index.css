@@ -31,10 +31,10 @@ header h1 {
 }
 
 nav {
-    width: 100%;
-    top:0;
-    display: flex;
-    justify-content:flex-start;
+    max-width: 980px;
+    padding: 0 0 5px;
+    top: 0;
+    text-align: right;
     text-transform: uppercase;
 }
 
@@ -56,7 +56,8 @@ li {
     background: black;
     border-radius: 18px;
 }
-section{
+
+section {
     background-color: #d6d6d6;
     border: 1px black;
     border-style: solid;
@@ -73,55 +74,85 @@ section{
     background: black;
     border-radius: 18px;
     display: flex;
-    justify-content:center;
+    justify-content: center;
 }
 
 
 
-h2{
-    margin-top: 10px;
+h2 {
+    margin: 54px 0 24px 0;
+    font-size:36px;
     font-family: 'Abril Fatface', cursive;
     display: flex;
-    justify-content:center;
+    justify-content: center;
 }
 
-h3{
+h3 {
+    margin: 24px 0 24px 0;
+    font-size: 30px;
     font-family: 'Alef', sans-serif;
 }
-
-.h3-one{
-    display: flex;
-    justify-content:center;
-    padding-left: 60px;
+.cheap,
+.design{
+        width: 678px;
 }
 
-
-p{
-    display: flex;
-    justify-content:center;
+.freelance{
+    margin:24px 0 24px 0;
+    font-size: 32px;
 }
+.last-p{
+    margin-bottom: 24px;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+}
+
 label {
+    display: block;
     font-family: 'Abril Fatface', cursive;
 }
 
-.small-img {
+.small-img1 {
+    margin:0 1em 1em 0;
     width: 125px;
     height: 125px;
 }
-.work-img{
+
+.small-img2 {
+    float: right;
+    margin:0 1em 1em 0;
+    width: 125px;
+    height: 125px;
+}
+
+.work-img {
     display: block;
-    justify-content:center;
+    justify-content: center;
     width: 212px;
     height: 158px;
     margin-bottom: 10px;
 }
-
-.footer-img{
-    display: flex;
-    width: 36px;
+form{
+    width: 378px;
 }
+textarea{
+    width: 348px;
+    
+}
+
+
+.footer-img {
+    padding: 5px;
+    width: 36px;
+    justify-content:flex-end;
+}
+
 footer {
-    display: block;
+    text-align: center;
     min-width: 320px;
     background: black;
 }
