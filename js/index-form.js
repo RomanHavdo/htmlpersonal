@@ -1,3 +1,4 @@
+/* global $ */
 $('#submit-contact-form').click(function(ev){
     if ($('form')[0].checkValidity()) {
         ev.preventDefault();
@@ -6,7 +7,9 @@ $('#submit-contact-form').click(function(ev){
             method: "POST",
             data: {
                 visitorName: $('#visitor-name').val(),
-                visitorEmail: $('#visitor-email').val()
+                visitorSecondName: $('#visitor-second-name').val(),
+                visitorEmail: $('#visitor-email').val(),
+                visitorInfo: $('#visitor-info').val()
             },
             dataType: "json"
         }).done(function() {

@@ -73,32 +73,33 @@
             <p class="last-p">or just want to see what I'm up to; this form is for you.</p>
 
             <form>
+                <div id="form-msg"></div>
                 <fieldset>
                     <label>First Name*
-                        <input type="text" name="first-name" required 
+                        <input type="text" id="visitor-name" required 
                         placeholder="John"> 
                     </label>
                 </fieldset>
 
                 <fieldset>
                     <label>Second Name*
-                        <input type="text" name="second-name" required
+                        <input type="text" id="visitor-second-name" required
                         placeholder="Kovalenko">
                     </label>
                 </fieldset>
 
                 <fieldset>
                     <label>Email*
-                        <input type="email" name="email-user" required
+                        <input type="email" id="visitor-email" required
                         placeholder="john.kovalenko@gmail.com">
                     </label>
                 </fieldset>
 
                 <fieldset>
                     <label>TELL ME ABOUT IT*</label>
-                    <textarea name="Tell_me_about_it" required cols="20" rows="5" class="error" aria-invalid="true"></textarea>
+                    <textarea id="visitor-info" required cols="20" rows="5" class="error" aria-invalid="true"></textarea>
                 </fieldset>
-                <input class="button-center" type="submit" value="SEND">
+                <input class="button-center" id="submit-contact-form" type="submit">
             </form>
         </section>
 
@@ -113,6 +114,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" 
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" 
     crossorigin="anonymous"></script>
+    <script src="js/index-form.js"></script>
 </body>
 
 </html>
