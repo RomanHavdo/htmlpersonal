@@ -81,7 +81,7 @@ section {
 
 h2 {
     margin: 54px 0 24px 0;
-    font-size:2.25rem;
+    font-size: 2.25rem;
     font-family: 'Abril Fatface', cursive;
     display: flex;
     justify-content: center;
@@ -92,16 +92,18 @@ h3 {
     font-size: 30px;
     font-family: 'Alef', sans-serif;
 }
+
 .cheap,
-.design{
-        width: 678px;
+.design {
+    width: 678px;
 }
 
-.freelance{
-    margin:24px 0 24px 0;
+.freelance {
+    margin: 24px 0 24px 0;
     font-size: 32px;
 }
-.last-p{
+
+.last-p {
     margin-bottom: 24px;
 }
 
@@ -117,14 +119,14 @@ label {
 }
 
 .small-img1 {
-    margin:0 1em 1em 0;
+    margin: 0 1em 1em 0;
     width: 125px;
     height: 125px;
 }
 
 .small-img2 {
     float: right;
-    margin:0 1em 1em 0;
+    margin: 0 1em 1em 0;
     width: 125px;
     height: 125px;
 }
@@ -136,19 +138,26 @@ label {
     height: 158px;
     margin-bottom: 10px;
 }
-form{
+
+form {
     width: 378px;
 }
-textarea{
+
+textarea {
     width: 348px;
-    
+
 }
+
+#form-msg {
+    border: 0;
+}
+
 
 
 .footer-img {
     padding: 5px;
     width: 36px;
-    justify-content:flex-end;
+    justify-content: flex-end;
 }
 
 footer {
