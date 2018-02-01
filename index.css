@@ -63,53 +63,103 @@ section {
     border-style: solid;
 }
 
-.button-center {
-    text-transform: uppercase;
-    font-family: "Source Sans Pro";
-    font-weight: 700;
-    line-height: 36px;
-    font-size: 15px;
-    color: white;
-    padding: 0 18px;
-    background: black;
-    border-radius: 18px;
-    display: flex;
-    justify-content: center;
-}
-
-
-
 h2 {
-    margin: 54px 0 24px 0;
+    margin: 3.375rem 0 1.5rem 0;
     font-size: 2.25rem;
     font-family: 'Abril Fatface', cursive;
     display: flex;
     justify-content: center;
 }
 
-h3 {
-    margin: 24px 0 24px 0;
-    font-size: 30px;
-    font-family: 'Alef', sans-serif;
-}
-
-.cheap {
-    width: 678px;
-}
-
-.freelance {
-    margin: 24px 0 24px 0;
-    font-size: 32px;
-}
-
-.last-p {
-    margin-bottom: 24px;
-}
-
 p {
     display: flex;
     justify-content: center;
-    font-size: 24px;
+    font-size: 1.5rem;
+}
+
+.small-img1 {
+    margin-left: 8.375rem;
+    margin-right: 1.25rem;
+    width: 7.813rem;
+    height: 7.813rem;
+    float: left;
+}
+
+h3 {
+    margin: 1.5rem 0 1.5rem 0;
+    font-size: 1.875rem;
+    font-family: 'Alef', sans-serif;
+}
+
+.h3-first {
+    margin-left: 35%;
+}
+
+.p-picture {
+    justify-content: flex-start;
+}
+
+#p-pic {
+    margin-bottom: 1.875rem;
+}
+
+.small-img2 {
+    margin-left: 1.25rem;
+    margin-right: 20%;
+    width: 7.813rem;
+    height: 7.813rem;
+    float: right;
+}
+
+.h3-second {
+    margin-left: 15%;
+}
+
+.div-p-first {
+    justify-content: flex-end;
+}
+
+.p-beginner {
+    margin-bottom: 3.438rem;
+}
+
+.freelance {
+    margin: 1.5rem 0 1.5rem 0;
+    font-size: 2rem;
+}
+
+.last-p {
+    margin-bottom: 1.5rem;
+}
+
+.button-center {
+    text-transform: uppercase;
+    font-family: "Source Sans Pro";
+    font-weight: 700;
+    line-height: 2.25rem;
+    font-size: 0.9375rem;
+    color: white;
+    padding: 0 1.125rem;
+    background: black;
+    border-radius: 1.125rem;
+    display: flex;
+    justify-content: center;
+}
+
+.work-img {
+    display: block;
+    justify-content: center;
+    width: 13.25rem;
+    height: 9.875rem;
+    margin-bottom: 0.625rem;
+}
+
+form {
+    width: 23.63rem;
+}
+
+#form-msg {
+    border: 0;
 }
 
 label {
@@ -117,73 +167,9 @@ label {
     font-family: 'Abril Fatface', cursive;
 }
 
-.h3-first {
-    margin-left: 35%;
-}
-
-.small-img1 {
-    margin-left: 20%;
-    margin-right: 3%;
-    width: 125px;
-    height: 125px;
-    float: left;
-}
-
-.small-img2 {
-    margin-left: 20px;
-    margin-right: 20%;
-    width: 125px;
-    height: 125px;
-    float: right;
-}
-
-.p-picture {
-    justify-content: left;
-}
-
-#p-pic {
-    margin-bottom: 30px;
-}
-
-.h3-second {
-    margin-left: 15%;
-}
-
-.p-beginner {
-    margin-bottom: 55px;
-}
-
-#div-p-first {
-    justify-content: flex-end;
-}
-
-.work-img {
-    display: block;
-    justify-content: center;
-    width: 212px;
-    height: 158px;
-    margin-bottom: 10px;
-}
-
-form {
-    width: 378px;
-}
-
 textarea {
-    width: 348px;
+    width: 21.75rem;
 
-}
-
-#form-msg {
-    border: 0;
-}
-
-
-
-.footer-img {
-    padding: 5px;
-    width: 36px;
-    justify-content: flex-end;
 }
 
 footer {
@@ -195,4 +181,10 @@ footer {
 footer p {
     text-align: center;
     color: white;
+}
+
+.footer-img {
+    padding: 5px;
+    width: 2.25rem;
+    justify-content: flex-end;
 }
