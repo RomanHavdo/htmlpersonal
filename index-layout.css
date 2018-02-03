@@ -56,6 +56,16 @@
     }
 }
 
+@media screen and (max-width: 614px) {
+    .small-img1 {
+        flex-basis: 20%;
+        margin-left: 10%;
+    }
+    .small-img2{
+        margin-right: 10%;
+    }
+}
+
 @media screen and (max-width: 457px) {
     header {
         height: 100px;
@@ -72,11 +82,23 @@
     }
     main h3 {
         font-size: 0.85rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .make,
+    .design {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .h3-first {
+        margin: 0;
     }
     .h3-second {
-        margin-left: 0px;
-        padding-left: 150px;
-        padding-right: 110px;
+        margin: 0;
+        padding-left: 0;
     }
     .div-p-first {
         justify-content: center;
@@ -91,16 +113,12 @@
         font-size: 0.75rem;
     }
     .small-img1 {
-        padding-left: 134px;
-        padding-right: 90px;
-        margin-left: 0px;
+        padding: 0;
+        margin: 0;
     }
     .small-img2 {
-        margin-right: 0px;
-        padding-left: 134px;
-        padding-right: 110px;
-        padding-bottom: 10px;
-        margin-left: 0px;
+        padding: 0;
+        margin: 0;
     }
     .work-img {
         flex-basis: 100%;
