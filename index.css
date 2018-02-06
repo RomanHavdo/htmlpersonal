@@ -15,6 +15,10 @@ body {
     color:black;
 }
 
+.fixed-top{
+    position: relative;
+}
+
 header {
     background-image: url("img/logo.jpg");
     background-position: center center;
@@ -41,30 +45,18 @@ nav {
 
 a {
     text-decoration: none;
-    color: black;
-}
-
-#whiteButton {
     color: white;
 }
+a:hover{
+    color:white;
+    text-decoration: none;
+}
+
 
 li {
     display: inline;
     font-family: 'Abril Fatface', cursive;
     padding: 0px 5px;
-}
-
-.button {
-    display: inline-block;
-    text-transform: uppercase;
-    font-family: "Source Sans Pro";
-    font-weight: 700;
-    line-height: 36px;
-    font-size: 15px;
-    color: white;
-    padding: 0 18px;
-    background: black;
-    border-radius: 18px;
 }
 
 button,
@@ -167,15 +159,19 @@ h3 {
     border-radius: 1.125rem;
     display: flex;
     justify-content: center;
-    width: auto;
+    width: 160px;
 }
 
-.work-img {
-    display: block;
-    justify-content: center;
-    width: 13.25rem;
-    height: 9.875rem;
-    margin-bottom: 0.625rem;
+.carousel {
+    margin-bottom: 10px;
+}
+
+.w-100 {
+     width: auto!important; 
+}
+
+.carousel-control-next, .carousel-control-prev{
+    width: 35%;
 }
 
 fieldset {
