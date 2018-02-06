@@ -12,6 +12,7 @@ body {
     font-family: sans-serif;
     font-size: 0.875em;
     line-height: 1.6em;
+    color:black;
 }
 
 header {
@@ -37,12 +38,13 @@ nav {
     text-align: right;
     text-transform: uppercase;
 }
+
 a {
     text-decoration: none;
     color: black;
 }
 
-#whiteButton{
+#whiteButton {
     color: white;
 }
 
@@ -65,6 +67,15 @@ li {
     border-radius: 18px;
 }
 
+button,
+input,
+optgroup,
+select,
+textarea {
+    margin: auto;
+}
+
+
 section {
     background-color: #d6d6d6;
     border: 1px black;
@@ -83,6 +94,7 @@ p {
     display: flex;
     justify-content: center;
     font-size: 1.5rem;
+    margin-bottom: 0;
 }
 
 .small-img1 {
@@ -162,6 +174,21 @@ h3 {
     width: 13.25rem;
     height: 9.875rem;
     margin-bottom: 0.625rem;
+}
+
+fieldset {
+    display: block;
+    -webkit-margin-start: 2px;
+    -webkit-margin-end: 2px;
+    -webkit-padding-before: 0.35em;
+    -webkit-padding-start: 0.75em;
+    -webkit-padding-end: 0.75em;
+    -webkit-padding-after: 0.625em;
+    min-width: -webkit-min-content;
+    border-width: 2px;
+    border-style: groove;
+    border-color: threedface;
+    border-image: initial;
 }
 
 form {
